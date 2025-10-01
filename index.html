@@ -4,6 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizzer Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        p {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin: 10px 0;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <h1>Quizzer</h1>
@@ -24,42 +69,42 @@
         
         <h2>Radio Button Questions</h2>
         <p>Question 5: Which is the largest planet?</p>
-        <input type="radio" name="q5" value="Earth"> Earth<br>
-        <input type="radio" name="q5" value="Mars"> Mars<br>
-        <input type="radio" name="q5" value="Jupiter"> Jupiter<br>
-        <input type="radio" name="q5" value="Saturn"> Saturn<br><br>
+        <input type="radio" name="q5"> Earth<br>
+        <input type="radio" name="q5"> Mars<br>
+        <input type="radio" name="q5"> Jupiter<br>
+        <input type="radio" name="q5"> Saturn<br><br>
         
         <p>Question 6: What is the boiling point of water?</p>
-        <input type="radio" name="q6" value="0°C"> 0°C<br>
-        <input type="radio" name="q6" value="100°C"> 100°C<br>
-        <input type="radio" name="q6" value="50°C"> 50°C<br>
-        <input type="radio" name="q6" value="200°C"> 200°C<br><br>
+        <input type="radio" name="q6"> 0°C<br>
+        <input type="radio" name="q6"> 100°C<br>
+        <input type="radio" name="q6"> 50°C<br>
+        <input type="radio" name="q6"> 200°C<br><br>
         
         <p>Question 7: Who wrote Romeo and Juliet?</p>
-        <input type="radio" name="q7" value="Shakespeare"> Shakespeare<br>
-        <input type="radio" name="q7" value="Dickens"> Dickens<br>
-        <input type="radio" name="q7" value="Austen"> Austen<br>
-        <input type="radio" name="q7" value="Hemingway"> Hemingway<br><br>
+        <input type="radio" name="q7"> Shakespeare<br>
+        <input type="radio" name="q7"> Dickens<br>
+        <input type="radio" name="q7"> Austen<br>
+        <input type="radio" name="q7"> Hemingway<br><br>
         
 
         <h2>Checkbox Questions</h2>
         <p>Question 8: Which of these are fruits? (Select all that apply)</p>
-        <input type="checkbox" name="q8" value="Apple"> Apple<br>
-        <input type="checkbox" name="q8" value="Carrot"> Carrot<br>
-        <input type="checkbox" name="q8" value="Banana"> Banana<br>
-        <input type="checkbox" name="q8" value="Orange"> Orange<br><br>
+        <input type="checkbox" name="q8"> Apple<br>
+        <input type="checkbox" name="q8"> Carrot<br>
+        <input type="checkbox" name="q8"> Banana<br>
+        <input type="checkbox" name="q8"> Orange<br><br>
         
         <p>Question 9: Which colors are in the rainbow? (Select all that apply)</p>
-        <input type="checkbox" name="q9" value="Red"> Red<br>
-        <input type="checkbox" name="q9" value="Blue"> Blue<br>
-        <input type="checkbox" name="q9" value="Black"> Black<br>
-        <input type="checkbox" name="q9" value="Green"> Green<br><br>
+        <input type="checkbox" name="q9"> Red<br>
+        <input type="checkbox" name="q9"> Blue<br>
+        <input type="checkbox" name="q9"> Black<br>
+        <input type="checkbox" name="q9"> Green<br><br>
         
         <p>Question 10: Which are programming languages? (Select all that apply)</p>
-        <input type="checkbox" name="q10" value="Python"> Python<br>
-        <input type="checkbox" name="q10" value="Java"> Java<br>
-        <input type="checkbox" name="q10" value="HTML"> HTML<br>
-        <input type="checkbox" name="q10" value="C++"> C++<br><br>
+        <input type="checkbox" name="q10"> Python<br>
+        <input type="checkbox" name="q10"> Java<br>
+        <input type="checkbox" name="q10"> HTML<br>
+        <input type="checkbox" name="q10"> C++<br><br>
         
         <input type="submit" value="Submit Quiz">
     </form>
